@@ -1,0 +1,8 @@
+# Ignorar modelos serializados (son pesados y binarios)
+*.pkl
+src/model/*.pkl
+
+# Ignorar archivos de sistema y IDEs
+.DS_Store
+.idea/
+.vscode/
