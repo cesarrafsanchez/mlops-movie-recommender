@@ -61,7 +61,8 @@ Si deseas modificar el código o realizar un análisis exploratorio de datos (ED
     ```bash
     python src/model/train.py
     ```
-5.  **Ejecutar la API:** ```bash
+5.  **Ejecutar la API:**
+   ```bash
     uvicorn src.api.main:app --reload
     ```
 
@@ -78,3 +79,4 @@ Si deseas modificar el código o realizar un análisis exploratorio de datos (ED
 ├── Dockerfile          # Configuración de imagen con entrenamiento integrado
 ├── .dockerignore       # Exclusión de venv y archivos pesados para el build
 └── requirements.txt    # Dependencias del proyecto
+
